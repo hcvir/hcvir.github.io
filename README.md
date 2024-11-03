@@ -5,7 +5,7 @@
     </head>
     <body>
         <py-script>
-                input_string = '사랑해요'
+                input_string = input("메시지를 입력하세요: ")
                 input_list = list(input_string)
                 num_list = []
                 for word in input_list:
